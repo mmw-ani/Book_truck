@@ -1,0 +1,26 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+	margin-top: 0;
+}
+
+.website-background {
+	background-color: rgb(203, 238, 255);
+	min-height: 100vh;
+	height: 100%;
+}
+.link-style {
+	background-color: transparent;
+	text-decoration: none;
+	color: rgb(23, 93, 245);
+}
